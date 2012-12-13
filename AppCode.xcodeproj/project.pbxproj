@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D59A1D316789751009EF516 /* ExpandableButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1CA16789751009EF516 /* ExpandableButton.png */; };
+		1D59A1D416789751009EF516 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1CB16789751009EF516 /* facebook.png */; };
+		1D59A1D516789751009EF516 /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1CC16789751009EF516 /* facebook@2x.png */; };
+		1D59A1D616789751009EF516 /* FancyMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1CD16789751009EF516 /* FancyMenu.png */; };
+		1D59A1D716789751009EF516 /* FlatPillButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1CE16789751009EF516 /* FlatPillButton.png */; };
+		1D59A1D816789751009EF516 /* petal-email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1CF16789751009EF516 /* petal-email@2x.png */; };
+		1D59A1D916789751009EF516 /* petal-facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1D016789751009EF516 /* petal-facebook@2x.png */; };
+		1D59A1DA16789751009EF516 /* petal-save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1D116789751009EF516 /* petal-save@2x.png */; };
+		1D59A1DB16789751009EF516 /* petal-twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D59A1D216789751009EF516 /* petal-twitter@2x.png */; };
+		1D5B1FF2167823F900FE47FF /* FancyMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B1FF1167823F900FE47FF /* FancyMenuButton.m */; };
+		1D5B200E1678540E00FE47FF /* ExpandableButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B200D1678540E00FE47FF /* ExpandableButtonController.m */; };
+		1D5B201716785ACA00FE47FF /* ExpandableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5B201616785ACA00FE47FF /* ExpandableButton.m */; };
+		1D5B2035167890A200FE47FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5B2034167890A100FE47FF /* AVFoundation.framework */; };
 		1D6CA6B91676C84700A803C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6CA6B81676C84700A803C2 /* UIKit.framework */; };
 		1D6CA6BB1676C84700A803C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6CA6BA1676C84700A803C2 /* Foundation.framework */; };
 		1D6CA6BD1676C84700A803C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6CA6BC1676C84700A803C2 /* CoreGraphics.framework */; };
@@ -19,16 +32,30 @@
 		1D6CA6D71676C8CB00A803C2 /* AppCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA6D61676C8CB00A803C2 /* AppCodeViewController.m */; };
 		1D6CA6E21676DE3800A803C2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA6E11676DE3800A803C2 /* DetailViewController.m */; };
 		1D6CA6E7167706BE00A803C2 /* FlatPillButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA6E6167706BE00A803C2 /* FlatPillButtonController.m */; };
-		1D6CA6E9167712FF00A803C2 /* FlatPillButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6CA6E8167712FF00A803C2 /* FlatPillButton.png */; };
 		1D6CA6ED1677140700A803C2 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA6EC1677140700A803C2 /* DetailTableViewCell.m */; };
 		1D6CA6EF167716B600A803C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6CA6EE167716B600A803C2 /* QuartzCore.framework */; };
 		1D6CA6FA1677229600A803C2 /* FlatPillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA6F91677229600A803C2 /* FlatPillButton.m */; };
 		1D6CA6FD1677347800A803C2 /* FancyMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA6FC1677347800A803C2 /* FancyMenuController.m */; };
-		1D6CA6FF1677376400A803C2 /* FancyMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6CA6FE1677376400A803C2 /* FancyMenu.png */; };
 		1D6CA70616773A1D00A803C2 /* FancyMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CA70516773A1D00A803C2 /* FancyMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D59A1CA16789751009EF516 /* ExpandableButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExpandableButton.png; sourceTree = "<group>"; };
+		1D59A1CB16789751009EF516 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		1D59A1CC16789751009EF516 /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		1D59A1CD16789751009EF516 /* FancyMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FancyMenu.png; sourceTree = "<group>"; };
+		1D59A1CE16789751009EF516 /* FlatPillButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlatPillButton.png; sourceTree = "<group>"; };
+		1D59A1CF16789751009EF516 /* petal-email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-email@2x.png"; sourceTree = "<group>"; };
+		1D59A1D016789751009EF516 /* petal-facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-facebook@2x.png"; sourceTree = "<group>"; };
+		1D59A1D116789751009EF516 /* petal-save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-save@2x.png"; sourceTree = "<group>"; };
+		1D59A1D216789751009EF516 /* petal-twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "petal-twitter@2x.png"; sourceTree = "<group>"; };
+		1D5B1FF0167823F900FE47FF /* FancyMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyMenuButton.h; sourceTree = "<group>"; };
+		1D5B1FF1167823F900FE47FF /* FancyMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyMenuButton.m; sourceTree = "<group>"; };
+		1D5B200C1678540E00FE47FF /* ExpandableButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableButtonController.h; sourceTree = "<group>"; };
+		1D5B200D1678540E00FE47FF /* ExpandableButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableButtonController.m; sourceTree = "<group>"; };
+		1D5B201516785ACA00FE47FF /* ExpandableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandableButton.h; sourceTree = "<group>"; };
+		1D5B201616785ACA00FE47FF /* ExpandableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandableButton.m; sourceTree = "<group>"; };
+		1D5B2034167890A100FE47FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1D6CA6B41676C84700A803C2 /* AppCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D6CA6B81676C84700A803C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D6CA6BA1676C84700A803C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,7 +75,6 @@
 		1D6CA6E11676DE3800A803C2 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		1D6CA6E5167706BE00A803C2 /* FlatPillButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatPillButtonController.h; sourceTree = "<group>"; };
 		1D6CA6E6167706BE00A803C2 /* FlatPillButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatPillButtonController.m; sourceTree = "<group>"; };
-		1D6CA6E8167712FF00A803C2 /* FlatPillButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FlatPillButton.png; path = image/button/FlatPillButton.png; sourceTree = "<group>"; };
 		1D6CA6EB1677140700A803C2 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
 		1D6CA6EC1677140700A803C2 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
 		1D6CA6EE167716B600A803C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -56,7 +82,6 @@
 		1D6CA6F91677229600A803C2 /* FlatPillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatPillButton.m; sourceTree = "<group>"; };
 		1D6CA6FB1677347800A803C2 /* FancyMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyMenuController.h; sourceTree = "<group>"; };
 		1D6CA6FC1677347800A803C2 /* FancyMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyMenuController.m; sourceTree = "<group>"; };
-		1D6CA6FE1677376400A803C2 /* FancyMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FancyMenu.png; path = image/button/FancyMenu.png; sourceTree = "<group>"; };
 		1D6CA70416773A1D00A803C2 /* FancyMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyMenu.h; sourceTree = "<group>"; };
 		1D6CA70516773A1D00A803C2 /* FancyMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5B2035167890A200FE47FF /* AVFoundation.framework in Frameworks */,
 				1D6CA6EF167716B600A803C2 /* QuartzCore.framework in Frameworks */,
 				1D6CA6B91676C84700A803C2 /* UIKit.framework in Frameworks */,
 				1D6CA6BB1676C84700A803C2 /* Foundation.framework in Frameworks */,
@@ -76,9 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D59A1C816789751009EF516 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1D59A1C916789751009EF516 /* button */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		1D59A1C916789751009EF516 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				1D59A1CA16789751009EF516 /* ExpandableButton.png */,
+				1D59A1CB16789751009EF516 /* facebook.png */,
+				1D59A1CC16789751009EF516 /* facebook@2x.png */,
+				1D59A1CD16789751009EF516 /* FancyMenu.png */,
+				1D59A1CE16789751009EF516 /* FlatPillButton.png */,
+				1D59A1CF16789751009EF516 /* petal-email@2x.png */,
+				1D59A1D016789751009EF516 /* petal-facebook@2x.png */,
+				1D59A1D116789751009EF516 /* petal-save@2x.png */,
+				1D59A1D216789751009EF516 /* petal-twitter@2x.png */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
 		1D6CA6A91676C84700A803C2 = {
 			isa = PBXGroup;
 			children = (
+				1D5B2034167890A100FE47FF /* AVFoundation.framework */,
 				1D6CA6EE167716B600A803C2 /* QuartzCore.framework */,
 				1D6CA6BE1676C84700A803C2 /* AppCode */,
 				1D6CA6B71676C84700A803C2 /* Frameworks */,
@@ -124,7 +175,7 @@
 		1D6CA6BF1676C84700A803C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1D6CA6E31677049C00A803C2 /* image */,
+				1D59A1C816789751009EF516 /* image */,
 				1D6CA6C01676C84700A803C2 /* AppCode-Info.plist */,
 				1D6CA6C11676C84700A803C2 /* InfoPlist.strings */,
 				1D6CA6C41676C84700A803C2 /* main.m */,
@@ -147,33 +198,14 @@
 				1D6CA6FC1677347800A803C2 /* FancyMenuController.m */,
 				1D6CA70416773A1D00A803C2 /* FancyMenu.h */,
 				1D6CA70516773A1D00A803C2 /* FancyMenu.m */,
+				1D5B1FF0167823F900FE47FF /* FancyMenuButton.h */,
+				1D5B1FF1167823F900FE47FF /* FancyMenuButton.m */,
+				1D5B200C1678540E00FE47FF /* ExpandableButtonController.h */,
+				1D5B200D1678540E00FE47FF /* ExpandableButtonController.m */,
+				1D5B201516785ACA00FE47FF /* ExpandableButton.h */,
+				1D5B201616785ACA00FE47FF /* ExpandableButton.m */,
 			);
 			name = button;
-			sourceTree = "<group>";
-		};
-		1D6CA6E31677049C00A803C2 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				1D6CA6EA1677131B00A803C2 /* default */,
-				1D6CA6E4167704A300A803C2 /* button */,
-			);
-			name = image;
-			sourceTree = "<group>";
-		};
-		1D6CA6E4167704A300A803C2 /* button */ = {
-			isa = PBXGroup;
-			children = (
-				1D6CA6FE1677376400A803C2 /* FancyMenu.png */,
-				1D6CA6E8167712FF00A803C2 /* FlatPillButton.png */,
-			);
-			name = button;
-			sourceTree = "<group>";
-		};
-		1D6CA6EA1677131B00A803C2 /* default */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = default;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +263,15 @@
 				1D6CA6CB1676C84800A803C2 /* Default.png in Resources */,
 				1D6CA6CD1676C84800A803C2 /* Default@2x.png in Resources */,
 				1D6CA6CF1676C84800A803C2 /* Default-568h@2x.png in Resources */,
-				1D6CA6E9167712FF00A803C2 /* FlatPillButton.png in Resources */,
-				1D6CA6FF1677376400A803C2 /* FancyMenu.png in Resources */,
+				1D59A1D316789751009EF516 /* ExpandableButton.png in Resources */,
+				1D59A1D416789751009EF516 /* facebook.png in Resources */,
+				1D59A1D516789751009EF516 /* facebook@2x.png in Resources */,
+				1D59A1D616789751009EF516 /* FancyMenu.png in Resources */,
+				1D59A1D716789751009EF516 /* FlatPillButton.png in Resources */,
+				1D59A1D816789751009EF516 /* petal-email@2x.png in Resources */,
+				1D59A1D916789751009EF516 /* petal-facebook@2x.png in Resources */,
+				1D59A1DA16789751009EF516 /* petal-save@2x.png in Resources */,
+				1D59A1DB16789751009EF516 /* petal-twitter@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +291,9 @@
 				1D6CA6FA1677229600A803C2 /* FlatPillButton.m in Sources */,
 				1D6CA6FD1677347800A803C2 /* FancyMenuController.m in Sources */,
 				1D6CA70616773A1D00A803C2 /* FancyMenu.m in Sources */,
+				1D5B1FF2167823F900FE47FF /* FancyMenuButton.m in Sources */,
+				1D5B200E1678540E00FE47FF /* ExpandableButtonController.m in Sources */,
+				1D5B201716785ACA00FE47FF /* ExpandableButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +319,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anson Shiong (BJ6RZ47Q6C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anson Shiong (BJ6RZ47Q6C)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -291,6 +334,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "675B0ACF-4C6E-4F05-84F3-B53ADD13A89B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "675B0ACF-4C6E-4F05-84F3-B53ADD13A89B";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -303,7 +348,8 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anson Shiong (BJ6RZ47Q6C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anson Shiong (BJ6RZ47Q6C)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -311,6 +357,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "675B0ACF-4C6E-4F05-84F3-B53ADD13A89B";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "675B0ACF-4C6E-4F05-84F3-B53ADD13A89B";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -322,6 +370,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppCode/AppCode-Prefix.pch";
 				INFOPLIST_FILE = "AppCode/AppCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -333,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AppCode/AppCode-Prefix.pch";
 				INFOPLIST_FILE = "AppCode/AppCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -357,6 +407,7 @@
 				1D6CA6D41676C84800A803C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

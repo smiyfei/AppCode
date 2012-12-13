@@ -92,7 +92,7 @@
     {
         case 0:
         {
-            detailArray = [[NSArray alloc] initWithObjects:@"FlatPillButton",@"FancyMenu", nil];
+            detailArray = [[NSArray alloc] initWithObjects:@"FlatPillButton",@"FancyMenu",@"ExpandableButton", nil];
         }
             break;
         case 1:
